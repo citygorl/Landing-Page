@@ -10,14 +10,14 @@ img {
 .header, .hero {
     background: #1F2937;
     display: flex;
+    padding: 10px;
+    align-items: center;
 }
 
 .header {
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 }
 
 .left{
@@ -38,7 +38,8 @@ ul {
 }
 
 .hero {
-    
+    display: flex;
+    justify-content: space-between;
 }
 .lefts {
 
