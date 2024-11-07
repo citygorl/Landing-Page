@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', 'Courier New', Courier;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.header, .hero {
+    background: #1F2937;
+    display: flex;
+}
+
+.header {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right{
+    
+}
+
+ul {
+    font-size:18px;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+
+}
+
+.hero {
+    
+}
+
+.bodyone {
+
+}
+
+.bodytwo {
+
+}
+
+.bodythree {
+
+}
+
+.footer {
+
+}
