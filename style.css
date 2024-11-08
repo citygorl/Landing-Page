@@ -39,11 +39,40 @@ ul {
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+.main{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 50px;
+}
+.secondary{
+    color: #E5E7EB;
+    
+}
+button {
+    background: #3662F6;
+    color: white;
+}
+button.sign_up{
+    border-color: #3662F6;
+    width: 100px;
+}
+
+.lefts, .rights {
+    padding: 16px;
     justify-content: space-between;
 }
-.lefts {
 
+.lefts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
 }
+
 .rights {
 
 }
@@ -57,7 +86,7 @@ ul {
 
 }
 
-.bodythree {
+.bluecontainer {
 
 }
 
