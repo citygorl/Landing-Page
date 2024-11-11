@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', 'Courier New', Courier;
 }
 
+
+
+
+
+
+
 img {
     width: 200px;
     height: 200px;
@@ -36,6 +42,11 @@ ul {
     gap: 16px;
 
 }
+
+
+
+
+
 
 .hero {
     display: flex;
@@ -73,14 +84,23 @@ button.sign_up{
     width: 500px;
 }
 
-.rights {
-
-}
-
-
 .bodyone {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.container {
+    display: flex;
+}
+
+.info {
+    /* flex: 1; not needed but if the images were diff widths and you wanted them to be the same, use this*/
+    padding: 20px;
+    max-width: 200px;
+}
+
 
 .bodytwo {
 
