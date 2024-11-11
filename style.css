@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', 'Courier New', Courier;
-    margin: 0px;
+    margin:0px;
 }
 
 
@@ -12,15 +12,15 @@ img {
 
 .header, .hero, .footer {
     background: #1F2937;
-    padding: 10px;
+    padding: 20px;
     align-items: center;
 }
 
 .header {
     color: #F9FAF8;
     display: flex;
-    padding-left:200px;
-    padding-right: 200px;
+    padding-left:300px;
+    padding-right: 300px;
 }
 
 .left{
@@ -31,6 +31,7 @@ img {
     max-width:720px;
     margin: 0px auto 0px auto;
 }
+
 ul {
     font-size:18px;
     list-style-type: none;
@@ -38,8 +39,6 @@ ul {
     gap: 16px;
 
 }
-
-
 
 .hero {
     display: flex;
@@ -84,7 +83,8 @@ button.sign_up{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding:30px;
+    padding:20px;
+    margin: 20px auto 20px auto;
 }
 
 .container {
@@ -131,7 +131,7 @@ button.sign_up{
     align-items: center;
     justify-content: center;
     max-width:720px;
-    margin: 20px auto 20px auto;
+    margin: 50px auto 50px auto;
     border-radius: 8px;
 }
 
