@@ -19,6 +19,8 @@ img {
 .header {
     color: #F9FAF8;
     display: flex;
+    padding-left:200px;
+    padding-right: 200px;
 }
 
 .left{
